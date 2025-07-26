@@ -1,0 +1,7 @@
+I used different input types like text, email, and number, and 
+added built-in validation to make sure users enter the right kind of data. For example, the name only allows letters,
+the email must be in the correct format, 
+and the age should be between 1 and 99. 
+Placeholders and tooltips help guide users while filling out the form, making the experience smoother.
+While creating this project i learned many things like how we create heading and how to change there sizes, how can we create user input box where the users can give/fill details, how to add 
+validation
