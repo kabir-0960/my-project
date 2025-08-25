@@ -1,0 +1,46 @@
+Project Overview
+This project demonstrates a simple Live Character Counter built with HTML, CSS, and a small portion of JavaScript.
+The key function, showCount(), keeps track of the number of characters typed inside the <textarea> (including spaces).
+
+
+HTML (Webpage Structure)
+The HTML portion mainly uses a <div> and a <script> tag.
+<div> Section
+Contains the heading “Live Character Counter.”
+A <textarea> element with the id txtData. Whenever the user types in it, the showCount() function is triggered.
+A placeholder is added inside the textarea for user guidance.
+Another <div> with the class “counter” is used to display the real-time character count.
+
+<script> Section
+JavaScript is written inside this tag.
+Defines the function showCount().
+The function retrieves the text entered in the textarea via id="txtData".
+It measures the text length using .value.length.
+Finally, it updates the element with id="counter" to show the live count.
+
+
+CSS (Page Styling)
+body Selector
+Applies the Arial font (fallback to sans-serif).
+Sets margin to 10px for spacing.
+
+textarea Selector
+Expands the text box width to 100%.
+Sets font size to 18px for clarity.
+Adds 10px padding for comfortable typing.
+Uses box-sizing to ensure padding is included within the total width.
+
+.counter Class
+Makes the counter text bold with font-weight.
+Adds a 5px margin-top for spacing from the textarea.
+
+.box Class
+Adds a 2px solid black border.
+Provides 10px inner padding.
+Leaves 20px margin at the bottom for spacing.
+Restricts the width to 500px for a clean, centered look.
+
+
+Learning Outcomes
+Gained familiarity with JavaScript basics (variables, loops, conditions).
+Practiced writing simple JavaScript functions for interactivity.
