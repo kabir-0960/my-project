@@ -1,0 +1,43 @@
+# Full Stack Integration Project
+
+## Overview
+This project aims to demonstrate the integration of front-end and back-end technologies to create a full-stack application. It showcases the seamless interaction between the client-side and server-side components.
+
+## Technologies Used
+- **Front-end:** HTML, CSS, JavaScript, React
+- **Back-end:** Node.js, Express
+- **Database:** MongoDB
+- **Version Control:** Git
+
+## Features
+- User authentication and authorization
+- CRUD operations for managing data
+- Responsive design for mobile and desktop
+- RESTful API for data interaction
+
+## Installation
+1. Clone the repository:
+    ```
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory:
+    ```
+    cd FullStackIntegration
+    ```
+3. Install dependencies:
+    ```
+    npm install
+    ```
+
+## Usage
+- Start the server:
+    ```
+    npm start
+    ```
+- Open your browser and navigate to `http://localhost:3000` to view the application.
+
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
+
+## License
+This project is licensed under the MIT License.
